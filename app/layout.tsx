@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={`${plusJakartaSans.variable} h-full antialiased`}>
-      <body class="bg-slate-50 text-slate-800 font-sans min-h-full flex items-center justify-center p-4">
+      <body className="bg-slate-50 text-slate-800 font-sans min-h-full flex items-center justify-center p-4">
         {children}
         <Analytics />
       </body>
